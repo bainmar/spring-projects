@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS Accounts;
+CREATE TABLE Accounts
+(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    surname VARCHAR(50) NOT NULL,
+    amount INT NOT NULL,
+    currency VARCHAR(50) NOT NULL
+);
